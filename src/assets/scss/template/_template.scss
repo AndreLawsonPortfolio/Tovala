@@ -1,0 +1,182 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header {
+  .columns {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.info-body {
+  .columns  {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+  .info-img {
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: underline;
+    color: red;
+    text-align: center;
+    padding-bottom: 10px;
+
+  }
+
+  .how-works {
+    padding-bottom: 20px;
+  }
+}
+
+.holiday-info {
+  h1 {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 3px solid red;
+  }
+
+  p {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .food-img {
+    padding-bottom: 30px;
+  }
+}
+
+.store-icons {
+  .img-icons {
+    width: 170px;
+    height: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-top {
+  h2 {
+    font-weight: 400;
+    letter-spacing: -2px !important;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-weight: 200;
+    text-align: center;
+  }
+}
+
+.footer-link {
+  a {
+    background: red;
+    background-color: red;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+  }
+}
+
+.footer-bottom {
+  .icon-img {
+    display: inline-block;
+    margin: 0 auto;
+    padding-right: 5px;
+  }
+
+  .links {
+    .social-links {
+       & tbody > tr > th {
+         padding-bottom: 0;
+       }
+      a {
+        color: red;
+        text-decoration: underline;
+        font-family: 'Work Sans', sans-serif;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 0;
+        display: inline-block;
+        &:nth-child(1) {
+          padding-left: 0;
+        }
+      }
+      .menu-divider {
+        display: inline-block; 
+        height: 10px; 
+        width: 1px; 
+        background: #2d3e4b; 
+        background-color: #2d3e4b;
+      }
+    }
+  }
+  .footer-info {
+    a {
+      font-size: 12px;
+      font-family: 'Work Sans', sans-serif;
+      text-decoration: underline;
+      color: gray;
+      display:inline-block;
+      padding-right: 5px;
+      padding-left: 5px;
+      &:nth-child(1) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    p {
+      font-family: 'Work Sans', sans-serif;
+    }
+    .menu-divider {
+      display: inline-block; 
+      height: 10px; 
+      width: 1px; 
+      background: #2d3e4b; 
+      background-color: #2d3e4b;
+    }
+  }
+}
+
+
+
